@@ -3,15 +3,8 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opactity: 0.9;
   text-align: center;
-  margin: 0px;
-}
-
- .header-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
 header {
@@ -21,6 +14,9 @@ header {
   height: 69px;
   background-color: black;
   border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -33,15 +29,66 @@ nav a {
   color: seashell;
 }
 
-#mission {
-  padding-top: 70px;
-  background-image: url("C:\teacozy\resources\images\img-mission-background.jpg");
-  height: 700px;
+footer {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
 }
 
-.content {
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#mission {
+  padding-top: 70px;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
   width: 1200px;
   background-color: black;
+  display: inline-block;
+}
 
+.mission-content {
+  width: 1200px;
+  background-color: black;
+  margin-top: 250px;
+}
 
+.featured-content {
+  width: 1000px;
+  display: inline-block;
+}
+.item img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.item span {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+#locations {
+  margin-top: 50px;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: inline-block;
+}
+
+.location  {
+  background-color: black;
+  width: 300px;
+  padding: 10px;
+  display: inline-block;
+  margin: 5px 20px;
+}
+
+#contact {
+  height: 200px;
 }
