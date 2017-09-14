@@ -5,6 +5,7 @@ body {
   background-color: black;
   text-align: center;
   align-items: center;
+  margin: 0px;
 }
 
 header {
@@ -42,7 +43,7 @@ footer {
 }
 
 #mission {
-  padding-top: 70px;
+  margin-top: 70px;
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
@@ -60,6 +61,7 @@ footer {
   width: 1000px;
   display: inline-block;
 }
+
 .item img {
   height: 200px;
   width: 300px;
